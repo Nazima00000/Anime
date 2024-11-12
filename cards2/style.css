@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    }
+    img{
+        width: 100%;
+    }
+    body{
+        background-color: rgb(95, 95, 95);
+        color: black;
+    }
+    .container{
+        max-width: 1068px;
+        margin: auto;
+        width: 100%;
+    }
+    section{
+        padding: 4rem 0 3rem;
+    }
+    header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aliceblue;
+    box-shadow: 0 1px 4px hsla(0, 2%, 12%, 0.1);
+    z-index: 100;
+    }
+    .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    }
+    .logo{
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    }
+    #cart-icon{
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        
+    }
+    .section-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom:1.5rem ;
+    }
+    .Manga{
+        margin-top: 2rem;
+        color: rgb(0, 0, 0);
+    }
+    .manga-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+        gap: 1.5rem;
+    }
+    .manga-box{
+        position: relative;
+    }
+    .manga-box:hover{
+        padding: 10px;
+        border:  1px solid black;
+        transition: 0.4s;
+    }
+    .manga-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    }
+    .manga-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+    }
+  
